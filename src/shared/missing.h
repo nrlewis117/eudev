@@ -176,6 +176,14 @@ static inline int name_to_handle_at(int fd, const char *name, struct file_handle
 #define BTN_TRIGGER_HAPPY 0x2c0
 #endif
 
+#ifndef BTN_DPAD_UP
+#define BTN_DPAD_UP 0x220
+#endif
+
+#ifndef KEY_ALS_TOGGLE
+#define KEY_ALS_TOGGLE 0x230
+#endif
+
 #ifndef INPUT_PROP_MAX
 #define INPUT_PROP_MAX 0x1f
 #endif
